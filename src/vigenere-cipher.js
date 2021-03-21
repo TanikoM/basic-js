@@ -52,11 +52,11 @@ class VigenereCipheringMachine {
     });
 
 
-    const strCtyptedToNum = strCtypted.map((later) => {
+    const strCtyptedToNumber = strCtypted.map((later) => {
       return ALPHABET.includes(later.toLowerCase()) ? ALPHABET.indexOf(later.toLowerCase()) : later;
     })
 
-    const keyCtyptedToNum = keyArr.map((later) => {
+    const keyCtyptedToNumber = keyArr.map((later) => {
       return ALPHABET.includes(later.toLowerCase()) ? ALPHABET.indexOf(later.toLowerCase()) : later;
     })
 
